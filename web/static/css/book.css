@@ -1,0 +1,22 @@
+body{
+    background-size: 100%,100%;
+    background: url("../pic/Cloud_Surf.jpg") no-repeat;
+    z-index:-9999;
+}
+#bookTable{
+    width:80%;
+    height: fit-content;
+    margin:20px auto;
+}
+#addBookInfo{
+    margin-left: 150px;
+}
+.myInputs{
+    background: rgba(0,0,0,0);
+    border:none;
+    height: 100%;
+    width:100%;
+}
+.trs{
+    background: rgba(0,0,0,0);
+}

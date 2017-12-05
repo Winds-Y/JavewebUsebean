@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="Exer7:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/Exer7_war</output-path>
+    <root id="archive" name="Exer7_war.war">
+      <element id="artifact" artifact-name="Exer7:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.1.40-bin" />
+          <element id="library" level="project" name="commons-pool2-2.4.3" />
+          <element id="library" level="project" name="commons-dbcp2-2.1.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
